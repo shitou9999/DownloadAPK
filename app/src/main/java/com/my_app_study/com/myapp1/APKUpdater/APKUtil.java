@@ -1,4 +1,4 @@
-package com.my_app_study.com.myapp1.yt_Apk;
+package com.my_app_study.com.myapp1.APKUpdater;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -8,7 +8,7 @@ import android.content.pm.PackageManager;
  * Created by Administrator on 2016/3/10.
  */
 public class APKUtil {
-    private static String packageName="com.example.administrator.mytable";
+    private static String packageName="com.my_app_study.com.myapp1";
     public static int getVersionCode(Context context){
         //获得apk安装包的信息
         PackageManager pn=context.getPackageManager();
